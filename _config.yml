@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /826national
+exclude: ['README.md']
