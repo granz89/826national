@@ -32,7 +32,7 @@ body{
 
 header {
   padding: 1em;
-  background-color:#c64214;
+  background-color:#1A1D27;
   text-align:center;
 }
 
@@ -308,8 +308,45 @@ main p {
 }
 
 .nationwide {
-	
+	padding:3em;
 }
+.nationwide h2 {
+	color:#174A6F;
+	font-weight:400;
+	font-size:2.75em;
+}
+
+.bynumbers {
+	padding:2em 3em 6em;
+	background-color:#F2F4F7;
+	overflow:hidden;
+	
+	h2 {
+	color:#174A6F;
+	font-weight:400;
+	font-size:2.75em;
+	}
+	
+	ul li {
+	text-decoration:none;
+	list-style-type:none;
+	float:left;
+	width:25%;
+	font-size:1.5em;
+	border-right: 1px solid #cc470d;
+	
+	&:last-child {
+		border-right:none;
+	}
+	
+	span { font-size:2.5em;
+	color: #cc470d;
+	font-weight:700; }
+	}
+	
+
+}
+
 
 footer {
 	background-color:#32b4e2;
@@ -350,6 +387,8 @@ footer ul{
 .banner img {
     width: 100%;
 }
+
+
 
 	
 /*@media*/
