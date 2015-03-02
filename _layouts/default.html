@@ -7,48 +7,45 @@
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
-<body class="noscript">
- <div class="site-wrapper" data-state="slide-closed">
-    <div class="sliding-canvas">
+<body>
       <header class="header">
-        <h1><a href="index.html"><img class="logo" src="img/mainlogo.svg" alt="826 National Logo"></a></h1>
-        <a class="toggle-btn" href="#"><i class="i-menu"></i><span>Menu</span>
-        </a>
-      <nav class="navigation slide-menu">
-        <a class="close-btn" href="#"><i class="i-close"></i><span>Close</span>
-        </a>
-          <ul>
-              <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-              <li><a href="{{site.baseurl}}/about.html">About</a>
-			  	<ul>
-					<li><a href="">Staff</a></li>
-					<li><a href="">Board</a></li>
-					<li><a href="">Press</a></li>
-					<li><a href="">Work For Us/Volunteer</a></li>
-					<li><a href="">FAQ</a></li>
-				</ul>
-			  </li>
-              <li><a href="{{site.baseurl}}/locations.html">Locations</a>
-			  <ul>
-					<li><a href="">Chapters</a></li>
-					<li><a href="">Storefront</a></li>
-				</ul>
-				</li>
-				<li><a href="{{site.baseurl}}/writing.html">Writing Gallery</a></li>
-				<li><a href="{{site.baseurl}}/news.html">Latest News</a></li>
-              <li><a href="{{site.baseurl}}/contact.html">Contact</a></li>
-			  <li><a href="{{site.baseurl}}/donate.html">Donate</a></li>
-			  <li><a href="{{site.baseurl}}/shop.html">Shop</a></li>
-          </ul>
-        </nav>
-      </header><!-- /header -->
+        <a href="index.html"><img class="logo" src="img/logo.svg" alt="826 National Logo"></a>
+		<h1>826 National</h1>
+      </header>
+	  	<nav id="nav" role="navigation">
+    		<a href="#nav" title="Show navigation">Show navigation</a>
+    		<a href="#" title="Hide navigation">Hide navigation</a>
+    	<ul>
+        <li><a href="{{site.baseurl}}/index.html">Home</a></li>
+        <li><a href="{{site.baseurl}}/about.html" aria-haspopup="true">About</a>
+            <ul>
+                <li><a href="/">Staff</a></li>
+                <li><a href="/">Board</a></li>
+                <li><a href="/">Press</a></li>
+                <li><a href="/">Work For Us</a></li>
+				<li><a href="/">FAQ</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="{{site.baseurl}}/locations.html" aria-haspopup="true">Locations</a>
+            <ul>
+                <li><a href="">Chapters</a></li>
+				<li><a href="">Storefront</a></li>
+            </ul>
+        </li>
+        <li><a href="{{site.baseurl}}/writing.html">Writing Gallery</a></li>
+		<li><a href="{{site.baseurl}}/news.html">Latest News</a></li>
+        <li><a href="{{site.baseurl}}/contact.html">Contact</a></li>
+		<li><a href="{{site.baseurl}}/donate.html">Donate</a></li>
+		<li><a href="{{site.baseurl}}/shop.html">Shop</a></li>
+    </ul>
+</nav><!-- /header -->
 
 {{content}}
 
-</div> <!--sliding-canvas-->
 
-</div> <!--site-wrapper-->
 
 <footer>
 <ul>
@@ -61,7 +58,29 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
   </script>
-  <script src="js/push-menu.js" type="text/javascript"> </script>
+   <script src="js/doubletaptogo.js"></script>
+   <script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
+  <script src="js/unslider.js"></script>
+<script>
+$(function() {
+    $('.banner').unslider();
+});
+</script>
+<script>
+    var unslider = $('.banner').unslider();
+    
+    $('.unslider-arrow').click(function() {
+        var fn = this.className.split(' ')[1];
+        
+        //  Either do unslider.data('unslider').next() or .prev() depending on the className
+        unslider.data('unslider')[fn]();
+    });
+</script>
 
 </body>
 </html>
