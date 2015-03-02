@@ -100,7 +100,7 @@ h1 {
 
 			#nav > ul
 			{
-				height: 4em; /* 60 */
+				height: 4.75em; /* 60 */
 				background-color: #e15a1f;
 				list-style-type: none;
 				padding-left:0;
@@ -187,9 +187,9 @@ h1 {
 
 			#nav
 			{
-				position: relative;
-				top: auto;
-				left: auto;
+				position: fixed;
+				top: 1em;
+				left: 0;
 			}
 				#nav > a
 				{
@@ -231,6 +231,7 @@ h1 {
 				position: absolute;
 				left: 0;
 				right: 0;
+				top:2em;
 			}
 				#nav:target > ul
 				{
@@ -245,7 +246,7 @@ h1 {
 					{
 						height: auto;
 						text-align: left;
-						padding: 0 0.833em; /* 20 (24) */
+						padding: 0.5em 1em; /* 20 (24) */
 					}
 						#nav > ul > li:not( :last-child ) > a
 						{
@@ -266,7 +267,7 @@ h1 {
 
 
 main {
-	margin:0 auto 5em;
+	margin:-1em auto 5em;
 }
 
 footer {
