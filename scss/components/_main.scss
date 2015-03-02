@@ -28,21 +28,16 @@ html {
 body{
   font-family: 'PT Sans', sans-serif;
   @include zero;
-  // Hides close button if there is no js
-  &.noscript .close-btn,
-  &.noscript .toggle-btn{
-    display: none;
-  }
 }
 
 header {
   padding: 1em;
-  background-color: #fff;
+  background-color:#c64214;
   text-align:center;
 }
 
 header .logo {
-	width:150px;
+	width:175px;
 }
 
 header img,
@@ -52,6 +47,9 @@ header h1 {
 }
 
 h1 {
+	
+	font-size:3.5em;
+	color:#fff;
 
 }
 
@@ -115,11 +113,11 @@ h1 {
 					#nav > ul > li > a
 					{
 						height: 100%;
-						font-size: 1.15em; /* 24 */
+						font-size: 1.1em; /* 24 */
 						line-height: 1.5em; /* 60 (24) */
 						text-align: center;
 						list-style-type: none;
-						padding: 1em 0.5em;
+						padding: 1.5em 0.5em;
 						text-decoration:none;
 					}
 						#nav > ul > li:not( :last-child ) > a
@@ -173,13 +171,44 @@ h1 {
 							}
 
 
-		@media only screen and ( max-width: 62.5em ) /* 1000 */
+		@media only screen and ( max-width: 66.563em ) /* 1000 */
 		{
 			#nav
 			{
 				width: 100%;
 				text-decoration:none;
 			}
+			
+			#nav > ul > li > a
+					{
+						height: 100%;
+						font-size: 1em; /* 24 */
+						line-height: 1.5em; /* 60 (24) */
+						text-align: center;
+						list-style-type: none;
+						padding: 1.5em 0.5em;
+						text-decoration:none;
+					}
+		}
+		
+		@media only screen and ( max-width: 60.625em ) /* 1000 */
+		{
+			#nav
+			{
+				width: 100%;
+				text-decoration:none;
+			}
+			
+			#nav > ul > li > a
+					{
+						height: 100%;
+						font-size: 1em; /* 24 */
+						line-height: 1.5em; /* 60 (24) */
+						text-align: center;
+						list-style-type: none;
+						padding: 1em 0.5em;
+						text-decoration:none;
+					}
 		}
 
 		@media only screen and ( max-width: 50em ) /* 640 */
@@ -268,6 +297,18 @@ h1 {
 
 main {
 	margin:-1em auto 5em;
+	text-align: center;
+}
+
+main p {
+	font-size:1.5em;
+	line-height:1.5em;
+	padding:3em 10em;
+	color:#174A6F;
+}
+
+.nationwide {
+	
 }
 
 footer {
