@@ -265,7 +265,7 @@ h1 {
 
 
 main {
-	margin:5em auto;
+	margin:0 auto 5em;
 }
 
 footer {
@@ -288,12 +288,25 @@ footer ul{
 
 }
 
-.banner { position: relative; overflow: auto; }
-    .banner li { list-style: none; }
-        .banner ul li { float: left; }
-		
-		.banner img {width:100%;}
+.banner {
+    width: 100% !important;
+	position: relative;
+	overflow: auto;
+}
 
+.banner ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.banner ul li {
+	float: left;
+}
+
+.banner img {
+    width: 100%;
+}
 
 	
 /*@media*/
