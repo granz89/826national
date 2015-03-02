@@ -59,7 +59,8 @@ h1 {
 		{
 			width: 100%; /* 1000 */
 			margin-top:-1em;
-			z-index:999;
+			z-index:9999;
+			position:relative;
 		}
 
 			#nav > a
