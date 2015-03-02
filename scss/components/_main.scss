@@ -390,12 +390,18 @@ main p {
 
 #subscribe input[type="submit"] {
     background: #2ab5b6;
-    color: white;
+    color: #fff;
+	font-size:1.5em;
     cursor: pointer;
 }
 
 #subscribe input[type="submit"]:hover {
-    background: #A4DFA1;
+    background: #D98747;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #subscribe input[type="submit"]:active {
@@ -415,6 +421,22 @@ main p {
     transform: translate(300px, 0);
     opacity: 0;
 }
+
+.sponsors {
+	margin:6em auto;
+	img {
+		width:100%;
+	}
+	
+	h2 {
+	color:#174A6F;
+	font-weight:400;
+	font-size:2.5em;
+	margin-bottom:1em;
+	text-transform:uppercase;
+	}
+}
+		
 
 
 footer {
