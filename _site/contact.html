@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>826 National</title>
+	<link href="css/style.css" rel="stylesheet">
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+      <header class="header">
+        <a href="index.html"><img class="logo" src="img/logo.svg" alt="826 National Logo"></a>
+		<!--<h1>826 National</h1>-->
+      </header>
+	  	<nav id="nav" role="navigation">
+    		<a href="#nav" title="Show navigation">Show navigation</a>
+    		<a href="#" title="Hide navigation">Hide navigation</a>
+    	<ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html" aria-haspopup="true">About</a>
+            <ul>
+                <li><a href="/staff.html">Staff</a></li>
+                <li><a href="/board.html">Board</a></li>
+                <li><a href="/press.html">Press</a></li>
+                <li><a href="/work.html">Work For Us</a></li>
+				<li><a href="/">FAQ</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/locations.html" aria-haspopup="true">Locations</a>
+            <ul>
+                <li><a href="">Chapters</a></li>
+				<li><a href="">Storefront</a></li>
+            </ul>
+        </li>
+        <li><a href="/writing.html">Writing Gallery</a></li>
+		<li><a href="/news.html">Latest News</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+		<li><a href="/donate.html">Donate</a></li>
+		<li><a href="/shop.html">Shop</a></li>
+    </ul>
+</nav><!-- /header -->
+
+      <main>
+	  
+	  <h2>Contact</h2>
+
+      </main><!-- /main -->
+
+      <p> Trying to get in touch with us? Here&#8217;s how! </p>
+
+      <ul>
+      	<li>826 NATIONAL</li>
+      	<li>44 Gough Street</li>
+      	<li>Suite 206</li>
+      	<li>San Francisco, CA 94103</li>
+      	<li>phone: 415-864-2098</li>
+      	<li>fax: 415-864-2388</li>
+      </ul>
+
+      <p>For all general inquires, please contact: information&#64;826national.org. For inquires about donations or partnerships, please contact: lindsey&#64;826national.org.</p>
+
+      <h3>Staff Directory</h3>
+
+      <ul>
+      	<li>Gerald Richards, Chief Executive Officer, please contact: daniel&#64;826national.org</li>
+
+      	<li>Maggie Andrews, Director of Development, please contact: maggie&#64;826national.org</li>
+
+      	<li>Kait Steele, Director of Field Operations, please contact: kait&#64;826national.org</li>
+
+      	<li>Lauren Broder, Director of Research &amp; Evaluation, please contact: laurenb&#64;826national.org</li>
+
+      	<li>Lindsey Bourne, Finance &amp; Communications Manager, please contact: lindsey&#64;826national.org</li>
+
+      	<li>Cooper Dinning, Salesforce Administrator &amp; Development Assistant, please contact: cooper&#64;826national.org</li>
+
+      	<li>Anna Gross, Field Operations Associate, please contact: anna&#64;826national.org</li>
+
+      	<li>Daniel Cesca, Operations Assistant, please contact: daniel&#64;826national.org</li>
+
+      	<li>For 826-specific inquiries for Dave Eggers, please contact his assistant Em-J Staples: assist&#64;mcsweeneys.net</li>
+      </ul>
+
+      <p> Like us on <a href="https://www.facebook.com/826National" target="_blank"> Facebook </a>| Follow us on <a href="https://twitter.com/826National" target="_blank"> Twitter </a> | <a href="http://oi.vresp.com/?fid=3314b66462" target="_blank"> Keep up with the latest news! </a>
+
+
+
+<footer>
+<ul>
+              <li><a href="/terms.html">Terms and Conditions</a></li>
+              <li><a href="/privacy.html">Privacy Policy</a></li>
+              <li><a href="/copyright.html">Copyright</a></li>
+          </ul>
+
+</footer><!-- /footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+  <script src="js/main.js"></script>
+   <script src="js/doubletaptogo.js"></script>
+   <script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
+  <script src="js/unslider.js"></script>
+<script>
+$(function() {
+    $('.banner').unslider();
+});
+</script>
+<script>
+    var unslider = $('.banner').unslider();
+    
+    $('.unslider-arrow').click(function() {
+        var fn = this.className.split(' ')[1];
+        
+        //  Either do unslider.data('unslider').next() or .prev() depending on the className
+        unslider.data('unslider')[fn]();
+    });
+</script>
+<script>
+jQuery(document).ready(function( $ ) {
+$('span').counterUp({
+delay: 10, // the delay time in ms
+time: 1000 // the speed time in ms
+});
+});
+</script>
+
+</body>
+</html>

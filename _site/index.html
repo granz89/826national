@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>826 National</title>
+	<link href="css/style.css" rel="stylesheet">
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+      <header class="header">
+        <a href="index.html"><img class="logo" src="img/logo.svg" alt="826 National Logo"></a>
+		<!--<h1>826 National</h1>-->
+      </header>
+	  	<nav id="nav" role="navigation">
+    		<a href="#nav" title="Show navigation">Show navigation</a>
+    		<a href="#" title="Hide navigation">Hide navigation</a>
+    	<ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html" aria-haspopup="true">About</a>
+            <ul>
+                <li><a href="/staff.html">Staff</a></li>
+                <li><a href="/board.html">Board</a></li>
+                <li><a href="/press.html">Press</a></li>
+                <li><a href="/work.html">Work For Us</a></li>
+				<li><a href="/">FAQ</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/locations.html" aria-haspopup="true">Locations</a>
+            <ul>
+                <li><a href="">Chapters</a></li>
+				<li><a href="">Storefront</a></li>
+            </ul>
+        </li>
+        <li><a href="/writing.html">Writing Gallery</a></li>
+		<li><a href="/news.html">Latest News</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+		<li><a href="/donate.html">Donate</a></li>
+		<li><a href="/shop.html">Shop</a></li>
+    </ul>
+</nav><!-- /header -->
+
+      <main>
+	  
+	   <p> 826 National is a nonprofit organization that provides strategic leadership, administration, and other resources to ensure the success of its network of seven writing and tutoring centers. Our mission is based on the understanding that great leaps in learning can happen with one-on-one attention, and that strong writing skills are fundamental to future success. </p>
+	  
+	  <div class="banner">
+    <ul>
+        <li><img src="img/book_hands.jpg"></li>
+		<li><img src="img/boy_book.jpg"></li>
+		<li><img src="img/boybook2.jpg"></li>
+    </ul>
+</div>
+	  
+	  <section class="nationwide">
+	  <h2>CHAPTERS NATIONWIDE</h2>
+	  <img src="img/nationwide.png">
+	  </section>
+	  
+	  <section class="bynumbers">
+	  
+	  <h2>826 BY THE NUMBERS</h2>
+	  
+	  <ul>
+	  	<li>
+	  		<span class="Count">32,041</span><br>students served
+	  	</li>
+		<li><span class="Count">917</span> <br>teachers served</li>
+		<li><span class="Count">6,042</span> <br>active volunteers</li>
+		<li><span class="Count">990</span> <br>publishing projects</li>
+		</ul>
+	  </section>
+	  
+	  <section class="subscription">
+			  
+		<h2>
+		  Keep In Touch
+		</h2>
+		<form id="subscribe">
+		<input type="text" placeholder="Your name">
+		<input type="text" placeholder="Your e-mail">
+		<input type="submit" value="Subscribe">
+		</form>
+
+</section>
+
+<section class="sponsors">
+<h2>sponsors</h2>
+<img src="img/sponsors.jpg">
+</section>
+	  
+
+      </main><!-- /main -->
+	  
+
+
+
+<footer>
+<ul>
+              <li><a href="/terms.html">Terms and Conditions</a></li>
+              <li><a href="/privacy.html">Privacy Policy</a></li>
+              <li><a href="/copyright.html">Copyright</a></li>
+          </ul>
+
+</footer><!-- /footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+  <script src="js/main.js"></script>
+   <script src="js/doubletaptogo.js"></script>
+   <script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
+  <script src="js/unslider.js"></script>
+<script>
+$(function() {
+    $('.banner').unslider();
+});
+</script>
+<script>
+    var unslider = $('.banner').unslider();
+    
+    $('.unslider-arrow').click(function() {
+        var fn = this.className.split(' ')[1];
+        
+        //  Either do unslider.data('unslider').next() or .prev() depending on the className
+        unslider.data('unslider')[fn]();
+    });
+</script>
+<script>
+jQuery(document).ready(function( $ ) {
+$('span').counterUp({
+delay: 10, // the delay time in ms
+time: 1000 // the speed time in ms
+});
+});
+</script>
+
+</body>
+</html>
