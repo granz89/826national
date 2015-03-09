@@ -898,6 +898,80 @@ main {
 
 /******* END BOARD PAGE ***********/
 		
+		
+/******** PRESS PAGE *************/
+
+.press {
+	
+	margin:5em 3em;
+	
+	p {
+		font-size:1.5em;
+		color:#174A6F;
+		padding:1em 4em;
+	}
+	
+	ul {
+		list-style-type:none;
+		padding:0;
+		li {
+			display:inline-block;
+			margin:2em;
+			a {
+		text-decoration:none;
+		color:#fff;
+			}
+		}
+	}
+}
+
+.flat-button {
+  position: relative;
+  width: 250px; height: 60px;
+  background: $reddish;
+  margin: 0 auto;
+  margin-top: 40px;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  transition: color .3s;
+  /* Typo */
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+.flat-button:after {
+  position: absolute;
+  top: 90%; left: 0;
+  width: 100%; height: 100%;
+  background: $redder;
+  content: "";
+  z-index: -2;
+  transition: transform .3s;
+}
+
+.flat-button:hover::after {
+  transform: translateY(-80%);
+  transition: transform .3s;
+}
+
+@media only screen and (max-width: 46.438em){
+
+.press {
+	
+	p {
+	font-size:1.2em;
+	line-height:1.5em;
+	padding:1em 2em;
+	}
+
+
+}
+}
+
+/****** END PRESS PAGE ***********/
+
 
 
 footer {
