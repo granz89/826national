@@ -1180,6 +1180,100 @@ main {
 /******** END FAQ *******/
 
 
+/******** BLOG **********/
+.blogpost {
+	margin:5em auto;
+}
+
+.page {
+  width: 760px; /* for now */
+  margin: 0 auto;
+}
+
+.post {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: 1px solid #ccc;
+  
+  h2{
+	
+  color: #cc470d;
+}  
+}
+
+/* Metadata */
+.post-meta {
+  text-align: right; 
+}
+
+.post-meta ul {
+ list-style: none;
+}
+
+.post-meta li {
+  display: inline;
+  color: #777;
+  margin-right:1em;
+}
+
+.post-meta a {
+  color: #777;
+  text-decoration: none;
+}
+
+.post-meta a:hover {
+ color: #333; 
+}
+
+/* Comments bubble */
+a.post-comments {
+  position: relative;
+  float: right;
+  top: 20px;
+  text-decoration: none; 
+  font-size: 2em;
+  color: #ccc;
+
+}
+
+a.post-comments:hover {
+ color: #555;
+}
+
+/* Buttons */
+button {
+	border:0;
+	font-size:1em;
+	margin-left:30em;
+}
+
+/***** END BLOG ******/
+
+
+/***** IN THE NEWS ******/
+
+.inthenews {
+	
+	margin: 5em;
+	
+	h3 {
+		
+		color: #cc470d;
+	}
+		
+	a {
+		text-decoration:none;
+		color:#fff;
+	}
+	
+	hr {
+		margin:3em;
+	}
+}
+
+
+/***** END IN THE NEWS ******/
+
 footer {
 	background-color:#32b4e2;
 	padding:6em;
