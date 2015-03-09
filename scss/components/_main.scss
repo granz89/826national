@@ -794,6 +794,71 @@ main {
 	text-transform:uppercase;
 	}
 }
+
+/********** STAFF PAGE ****************/
+
+.staff {
+	margin:2em 4em;
+	text-align:center;
+}
+
+
+.image-container {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background: #cc470d;
+  cursor: pointer;
+  margin:2em;
+  text-align:left;
+}
+.image {
+  width: 250px;
+  height: 300px;
+  z-index: 1;
+  transition: all .5s;
+}
+.image img {
+  max-height: 100%;
+}
+.caption {
+  width: 200px;
+  height: auto;
+  padding:10px;
+  background: #cc470d;
+  z-index: 2;
+  font-weight: 400;
+  transition: all .5s;
+  color:#fff;
+  text-align:center;
+  
+}
+.caption-num2 {
+  transform: translateY(140px);
+}
+.image-container-num2:hover .image-num2 {
+  opacity: .8;
+  transform: translateY(-50%) translateY(0px);
+}
+.image-container-num2:hover .caption-num2 {
+  transform: translateY(-210px);
+}
+.break {
+  display: none;
+}
+@media all and (max-width: 650px) {
+  .image-container {
+    margin: 30px;
+  }
+  .break {
+    display: initial;
+  }
+}
+
+
+/************ END STAFF PAGE ***********/
 		
 
 
