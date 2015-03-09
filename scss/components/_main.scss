@@ -61,11 +61,11 @@ body {
 	clear: both;
 }
 
-/*.grid-pad {
+.grid-pad2 {
 	padding-top: 20px;
 	padding-left: 20px; /* grid-space to left */
-	/*padding-right: 0px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
-/*}*/
+	padding-right: 0px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
+}
 
 .push-right {
 	float: right;
@@ -859,6 +859,44 @@ main {
 
 
 /************ END STAFF PAGE ***********/
+
+
+/********* BOARD PAGE ***********/
+
+.board {
+	
+	text-align:center;
+	margin:2em 0 5em;
+	paddng:0;
+	
+		
+		.content {
+			padding:1em 2em;
+		}
+	
+			h3 {
+				font-size:1.5em;
+				top:0;
+				font-weight:400;
+				color:#174A6F;
+				margin-bottom:-0.5em;
+				
+			}
+			p {
+				font-size:1em;
+				line-height:2em;
+			}
+			
+			h2 {
+				color:#cc470d;
+				margin-bottom:0;
+			}
+	
+	
+}
+
+
+/******* END BOARD PAGE ***********/
 		
 
 
