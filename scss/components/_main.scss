@@ -752,7 +752,17 @@ main {
 	p {
 		padding:1em 10em;
 		font-size:1.25em;
+		line-height:1.5em;
 	}
+	
+	a {
+				text-decoration:none;
+				color:#cc470d;
+				
+				&:hover {
+					color:#174A6F;
+				}
+			}
 }
 
 .programs {
@@ -775,6 +785,19 @@ main {
 			p {
 				font-size:1em;
 				line-height:2em;
+			}
+			
+			a {
+				text-decoration:none;
+				color:#cc470d;
+				
+				&:hover {
+					color:#174A6F;
+				}
+			}
+			
+			ul {
+				list-style-type:none;
 			}
 	
 	
