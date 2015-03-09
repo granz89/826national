@@ -1,0 +1,51 @@
+/* TEAM */
+
+Project Lead: Adriana Granieri
+Site: http://agranieri.ca
+Github: http://github.com/granz89
+Twitter: @granz89
+Email: a.granieri@hotmail.com
+Location: Ottawa, Canada
+
+Designer: Jenna McLean
+Site: http://jennamclean.ca
+Github: http://github.com/mcle0316
+Twitter: 
+Email: mclean0316@gmail.com
+Location: Ottawa, Canada
+
+Designer: Kathrine Greenberg
+Site: http://kathrinegreenberg.ca
+Github: http://github.com/KathrineGreenberg
+Twitter: @kathrine_rae
+Email: kathrinegreenberg@gmail.com
+Location: Ottawa, Canada
+
+Developer: Sonal Sharma
+Site: http://sonalsharma.ca
+Github: http://github.com/sonalsharma
+Twitter: @sharmasonalx
+Email: info@sonalsharma.ca
+Location: Ottawa, Canada
+
+---
+
+/* THANKS */
+
+THANKS TO OUR AMAZEBALLS PROF TIFFANY TSE
+
+---
+
+/* SITE */
+
+                            
+Last update: 2015/03/09 
+
+                            
+Standards: HTML5, CSS3
+
+                            
+Components: Modernizr, jQuery
+
+                            
+Software: Sublime, Dreamweaver
