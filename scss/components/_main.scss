@@ -1461,6 +1461,43 @@ button {
 
 /***** END IN THE NEWS ******/
 
+
+/******* AWARDS ********/
+
+.awards {
+	
+	
+	padding:3em;
+	
+	ul {
+		list-style-type: none;
+		
+		li {
+			margin-bottom:1em;
+		}
+	}
+	
+	a {
+		text-decoration:none;
+		color:#cc470d;
+		
+		&:hover {
+			color:#174A6F;
+		}
+	}
+	
+	h3 {
+		
+		color:#174A6F;
+		margin-bottom:1.5em;
+	}
+		
+}
+		
+
+
+/****** end awards ******/
+
 footer {
 	background-color:#32b4e2;
 	padding:6em;
