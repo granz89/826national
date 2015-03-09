@@ -1106,6 +1106,17 @@ main {
 
 .faq {
 	margin:5em auto;
+	
+	h3 {
+		color:#cc470d;
+		font-size:1.5em;
+	}
+	
+	p {
+		padding:0 15em 2em;
+		line-height:1.5em;
+		font-size:1em;
+	}
 }
 
 .content2 {
@@ -1186,14 +1197,14 @@ main {
 }
 
 .page {
-  width: 760px; /* for now */
-  margin: 0 auto;
+  padding: 0 8em;
 }
 
 .post {
   padding-top: 0;
   padding-bottom: 0;
   border-bottom: 1px solid #ccc;
+  margin-bottom:4em;
   
   h2{
 	
@@ -1247,6 +1258,22 @@ button {
 	margin-left:30em;
 }
 
+@media only screen and (max-width: 41.250em){
+
+.page {
+	padding:0 2em;
+
+}
+
+.post-meta {
+	text-align:left;
+	
+	ul {
+		padding-left:0;
+	}
+}
+
+}
 /***** END BLOG ******/
 
 
