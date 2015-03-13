@@ -1500,8 +1500,32 @@ button {
 
 footer {
 	background-color:#32b4e2;
-	padding:6em;
+	padding:1em;
 	text-align:center;
+	
+	ul{
+			li {
+				display:inline-block;
+				padding-right:2em;
+				
+				a {
+					color:#fff;
+					text-decoration:none;
+					margin-top:1em;
+					
+					&:hover {
+						color:#F5E094;
+						-webkit-transition: all 0.3s ease-in-out;
+						-moz-transition: all 250ms linear;
+						-ms-transition: all 250ms linear;
+						-o-transition: all 250ms linear;
+						transition: all 250ms linear;
+			}
+		}
+	}
+
+}
+
 }
 
 .social {
@@ -1517,38 +1541,15 @@ footer {
 						
 						color:#F5E094;
 						-webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 250ms linear;
-    -ms-transition: all 250ms linear;
-    -o-transition: all 250ms linear;
-    transition: all 250ms linear;
+						-moz-transition: all 250ms linear;
+						-ms-transition: all 250ms linear;
+						-o-transition: all 250ms linear;
+						transition: all 250ms linear;
 						
 					}
 				}
 		}
 	}
-}
-
-footer ul{
-	li {
-		display:block;
-		padding-right:2em;
-		a {
-			display:inline-block;
-			color:#fff;
-			text-decoration:none;
-			margin-top:1em;
-			
-			&:hover {
-				color:#F5E094;
-				-webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 250ms linear;
-    -ms-transition: all 250ms linear;
-    -o-transition: all 250ms linear;
-    transition: all 250ms linear;
-			}
-		}
-	}
-
 }
 
 .banner {
@@ -1573,17 +1574,17 @@ footer ul{
 
 
 
-	
-/*@media*/
 
-
-
-@media only screen and (min-width: 75em){
+@media only screen and (max-width: 31em){
 
 footer ul{
+	padding:0;
+	margin:0 auto;
+	text-align:center;
 
 	li {
-		display:inline-block;
+		display:block;
+		padding:0;
 
 		a {
 			display:inline-block;
