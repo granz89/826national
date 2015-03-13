@@ -1121,13 +1121,26 @@ main {
 .press {
 	
 	p {
-	font-size:1.2em;
+	font-size:1em;
 	line-height:1.5em;
-	padding:1em 2em;
+	padding:1em 0;
+	}
+	
+	ul {
+	
+		li {
+		  display: inline-block;
+		  margin: 1em 0;
+}
+
 	}
 
 
 }
+}
+
+.flat-button {
+	width:220px;
 }
 
 /****** END PRESS PAGE ***********/
