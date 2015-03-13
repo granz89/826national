@@ -935,6 +935,7 @@ main {
 			
 			ul {
 				list-style-type:none;
+				padding:0;
 			}
 	
 	
@@ -953,6 +954,26 @@ main {
 	margin-bottom:1em;
 	text-transform:uppercase;
 	}
+}
+
+@media only screen and (max-width: 53em) {
+
+.overview p {
+  padding: 1em 3em;
+  font-size: 1.1em;
+  line-height: 1.75em;
+}
+
+}
+
+@media only screen and (max-width: 25em) {
+
+.overview p {
+  padding: 1em 0.5em;
+  font-size: 1em;
+  line-height: 1.75em;
+}
+
 }
 
 /********** STAFF PAGE ****************/
