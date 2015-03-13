@@ -1250,6 +1250,7 @@ main {
 	
 	ul {
 		list-style-type:none;
+		padding:0;
 		
 		li {
 			font-size:1.5em;
@@ -1271,6 +1272,16 @@ main {
 			}
 		}
 	}
+}
+
+@media only screen and (max-width: 28.813em){
+	
+	.contact {
+	
+	padding:0;
+	}
+	
+	
 }
 
 /***** END CONTACT PAGE ********/
